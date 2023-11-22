@@ -1,0 +1,50 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*generics*/
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.yellow {
+    color: yellow;
+
+}
+
+.green {
+    color: green;
+}
+
+
+/*body*/
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoes {
+    text-align: center;
+    border: 2px dashed black;
+    font-size: 3rem;
+
+}
